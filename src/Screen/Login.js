@@ -10,7 +10,7 @@ const Login = () => {
     let dispatch = useDispatch();
     return (
         <View style={styles.container}>
-            <Icon types='material' name="android" color="#3DDC84" size={200} />
+            <Icon types='material' name="android" color="#3DDC84" size={100} />
             <Input 
                 placeholder="Username"
                 onChangeText={e => setUsername(e)}
